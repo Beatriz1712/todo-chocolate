@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Contacto</title>
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src=".././img/logo.png.png">
+      <nav>
+        <ul class="menu">
+          <li class="menu_item"><a href="../index.html">INICIO</a></li>
+          <li class="menu_item"><a href="./nosotros.html">NOSOTROS</a></li>
+          <li class="menu_item"><a href="./productos.html">PRODUCTOS</a></li>
+          <li class="menu_item"><a href="./locales.html">LOCALES</a></li>
+          <li class="menu_item"><a href="#" >CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="ventana_contacto">
+      <h1>CONTACTO</h1>
+      <form>
+          <fieldset class="formulario">
+        
+            <h1/h1>
+        
+              <label for="nombre">Nombre</label>
+                <input reqiered type="text" id="nombre" placeholder="Ingresa tu nombre">
+                <br>
+                <!--<label form="apellido">Apellido</Label>--->
+                <!--<input required type="text" id="apellido" placeholder="Ingresa tu apellido">-->
+              
+               <div>
+                  <label for="email">Email</label>
+                  <input required type="email" id="email" placeholder="Ingresa tu email">
+                  <br>
+               </div>
+                <br>
+                <label for="formas de pago">Formas de pago</label>
+                <br>
+                <select>
+                    <option value="tarjeta  credito">Tarjeta de crédito</option>
+                    <option value="tarjeta debito">Tarjeta débito</option>
+                    <option value="tansferencia bancaria">Transferencia bancaria</option>
+                </select>
+                <br>
+                
+                <h2>¿Aceptas términos y condiciones?</h2>
+                <br>
+                <input type="radio"  name="terminosycondiciones" value="si">SI
+                
+                <input type="radio"  name="terminosycondiciones" value="no">NO
+                <br>
+                <br>
+                <div> 
+                    <textarea placeholder="Dejanos un mensaje..."></textarea>
+                </div>
+                <br>
+                <button class="btn_enviar">Enviar</button>
+                <!--<input type="submit" value="Enviar">-->
+                <!---<input type="reset" value="Limpiar">--->
+          </fieldset>
+       </form>
+    </main>
+
+    <footer class="footer">
+        <p>TODO CHOCOLATE  Copyrigth © 2023 by Beatriz SCh</p>
+        <a target="_blank" href="http://facebook.com">Facebook</a>
+        <a target="_blank" href="http://instagram.com">Instagram</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: pink;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.menu li {
+    width: ;
+    height: ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family:'Roboto', sans-serif;;
+    font-size: 25px; 
+     
+}
+
+.menu_item a {
+    color : rgb(47, 5, 5);
+    text-decoration:none;
+}
+
+.ventana_tarjetitas {
+    background-color:#EEE8AA ;
+}
+
+.tarjetitas_principal {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+.card {
+    background-color: pink;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+}
+
+.card__image{
+    width: 100%;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.tarjetitas card p{
+    font-family: 'Roboto', sans-serif;
+}
+.tarjetitas card a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--- NOSOTROS ---*/
+.ventana_nosotros {
+    background-color: #EEE8AA;
+}
+.section_parrafos {
+    background-color:#EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.parrafo {
+    padding:  20px 60px ;
+    background-color: pink;
+    margin: auto;
+    height:;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--- PRODUCTOS ---*/
+.ventana_tarjetas_chocolate {
+    background-color :#EEE8AA;
+    /*
+    padding: 10px;
+    margin: 20;
+    justify-content:space-around;
+    align-items: start;
+    gap: 30;
+    */
+}
+/*  sectioncon   div: 3 tarjeta chocolate  */
+.tarjetas_seccion {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #ffc0cb;
+    width: 99%;
+    padding: 30;
+    margin: 10px;
+    gap: 30px;   
+}
+
+.tarjeta_chocolate {
+    background-color: #eee8aa;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.producto_chocolate_imagen {
+    width: 100%;
+    height: 100%; 
+}
+
+.parrafo_chocolate {
+    background-color: palegoldenrod;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20;
+    margin: 30;    
+}
+ .precio {
+    justify-content: center;
+ }
+
+.btn_comprar {
+    background-color: darkgoldenrod;
+    font-family: 'Roboto', sans-serif;
+    font-size-adjust: initial;
+    padding: 10px;
+    border-radius: 6%;
+    height: 30;
+    width: 30;
+}
+
+/*--- LOCALES ---*/
+.ventana_google_maps {
+    background-color:#EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1px 15px 10px 30px;
+    
+  
+}
+.maps {
+    background-color: pink;
+    display: flex;
+    width: 99%;
+    height: 100%;
+    padding: 20;
+    justify-content: center;
+}
+
+/*--- CONTACTO ---*/
+.ventana_contacto {
+    background-color: #EEE8AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.formulario {
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    width: 99%;
+    padding: 30px;
+    margin: 10px;
+}
+.btn_enviar{
+    background-color: darkgoldenrod;
+    font-family: 'Roboto', sans-serif;
+    font-size-adjust: initial;
+    padding: 10px;
+    border-radius: 50%;
+    height: 50;
+    width: 30;
+}
+.footer {
+    background-color: pink;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+  
+  
+@media screen and (max-width : 400px){
+    .tarjetitas_principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }   
+}
+
+@media screen and (max-width : 760px) {
+    .tarjetas_seccion {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+    } 
+    .tarjetitas_principal {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+        
+    }  
+}
+
+
