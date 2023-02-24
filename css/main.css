@@ -236,15 +236,20 @@ h2{
         flex-wrap: wrap;
         background-color: #ffc0cb;
     } 
+
     .tarjetitas_principal {
-        
         flex-direction: column;
         background-color: #ffc0cb;
         justify-content: center;
         align-items: center;
-    }  
-}
+        width: 100%;
 
+    } 
+    .card {
+        width: 80%;
+    } 
+}
+/*
 @media screen and (max-width : 500px){
     .tarjetitas_principal{
         flex-direction: column;
@@ -254,3 +259,4 @@ h2{
     } 
      
 }
+*/
