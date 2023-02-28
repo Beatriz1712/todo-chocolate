@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: pink;
+    background-color: #ffc0cb;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ header {
 }
 
 .card {
-    background-color: pink;
+    background-color: #ffc0cb;
     padding: 30px;
     border-radius: 10px;
     display: flex;
@@ -79,12 +79,27 @@ h1{
 h2{
     font-family: 'Roboto', sans-serif;
 }
-
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
 .tarjetitas card p{
     font-family: 'Roboto', sans-serif;
 }
 .tarjetitas card a{
     font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: #ffc0cb;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brown {
+    color: rgba(17, 13, 10, 0.425);
+    font-size: 50px;
 }
 
 /*--- NOSOTROS ---*/
@@ -104,7 +119,7 @@ h2{
 }
 .parrafo {
     padding:  20px 60px ;
-    background-color: pink;
+    background-color: #ffc0cb;
     margin: auto;
     height:;
     font-family: 'Roboto', sans-serif;
@@ -152,7 +167,7 @@ h2{
 }
 
 .parrafo_chocolate {
-    background-color: palegoldenrod;
+    background-color: #eee8aa;
     font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
@@ -165,7 +180,7 @@ h2{
  }
 
 .btn_comprar {
-    background-color: darkgoldenrod;
+    background-color: #b8860b;
     font-family: 'Roboto', sans-serif;
     font-size-adjust: initial;
     padding: 10px;
@@ -185,7 +200,7 @@ h2{
   
 }
 .maps {
-    background-color: pink;
+    background-color: #ffc0cb;
     display: flex;
     width: 99%;
     height: 100%;
@@ -202,8 +217,9 @@ h2{
     
 }
 .formulario {
-    background-color: pink;
+    background-color: #ffc0cb;
     font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     width: 99%;
     padding: 30px;
     margin: 10px;
@@ -217,14 +233,7 @@ h2{
     height: 50;
     width: 30;
 }
-.footer {
-    background-color: pink;
-    font-family: 'Roboto', sans-serif;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 
   
@@ -242,12 +251,16 @@ h2{
         background-color: #ffc0cb;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: auto;
 
     } 
     .card {
         width: 80%;
     } 
+}
+
+@media screen and (max-width:400px) {
+    
 }
 /*
 @media screen and (max-width : 500px){
