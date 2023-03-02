@@ -28,6 +28,14 @@ header {
     gap: 20px;
     
 }
+.navbar-nav li {
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family:'Roboto', sans-serif;;
+    font-size: 25px;    
+}
 
 .menu li {
    
@@ -39,7 +47,12 @@ header {
      
 }
 
+
 .menu_item a {
+    color : rgb(47, 5, 5);
+    text-decoration:none;
+}
+.nav-item a{
     color : rgb(47, 5, 5);
     text-decoration:none;
 }
