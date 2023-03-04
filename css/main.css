@@ -305,6 +305,9 @@ h3 {
     .card {
         width: 80%;
     } 
+    .navbar {
+        background-color: #ffc0cb;
+    }
 }
 /*
 @media screen and (max-width:400px) {
