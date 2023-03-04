@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*-----Inicio ----*/
 header {
     background-color: #ffc0cb;
     padding: 10px;
@@ -15,8 +15,9 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 8rem;
 }
+
 
 .menu {
     list-style-type: none;
@@ -26,6 +27,11 @@ header {
     justify-content:space-around;
     align-items: center;
     gap: 20px;
+    
+}
+.navbar {
+    background-color: #ffc0cb;
+    justify-content: endgit;
     
 }
 .navbar-nav li {
@@ -52,6 +58,7 @@ header {
     color : rgb(47, 5, 5);
     text-decoration:none;
 }
+
 .nav-item a{
     color : rgb(47, 5, 5);
     text-decoration:none;
@@ -110,8 +117,9 @@ h3 {
     justify-content: space-between;
     align-items: center;
 }
+
 .brown {
-    color: rgba(17, 13, 10, 0.425);
+    color: rgba(9, 9, 8, 0.425);
     font-size: 50px;
 }
 
@@ -149,7 +157,7 @@ h3 {
     gap: 30;
     */
 }
-/*  sectioncon   div: 3 tarjeta chocolate  */
+/*  section con   div: 3 tarjeta chocolate  */
 .tarjetas_seccion {
     display: flex;
     justify-content:space-evenly;
@@ -237,14 +245,41 @@ h3 {
     padding: 30px;
     margin: 10px;
 }
+.nombre {
+    padding: 20px; ;
+    margin: 10px; ;
+}
+.email {
+    padding:20px ;
+    margin: 10px; ;
+}
+.formas_de_pago {
+    padding:20px ;
+    margin:10px ;
+}
+.terminos_y_condiciones {
+    padding:20px ;
+    margin:10px ;
+}
+.textarea {
+    resize: none;
+    width: 50vw;
+    height: 50vh;
+    margin: 20px;
+    padding: 20px;
+}
 .btn_enviar{
     background-color: darkgoldenrod;
     font-family: 'Roboto', sans-serif;
     font-size-adjust: initial;
     padding: 10px;
+    margin: 10px 20px;
     border-radius: 50%;
     height: 50;
     width: 30;
+}
+.btn_enviar:hover{
+    transform: scale(1.2);
 }
 
 
@@ -271,9 +306,12 @@ h3 {
         width: 80%;
     } 
 }
-
+/*
 @media screen and (max-width:400px) {
-    
+  .brown {
+    display: flex;
+    flex-wrap: wrap;
+  }  
 }
 /*
 @media screen and (max-width : 500px){
