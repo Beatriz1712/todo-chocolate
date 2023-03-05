@@ -90,9 +90,7 @@ header {
 .card__image{
     width: 100%;
 }
-/*probando*/
 
-/*hasta aqui*/
 h1{
     font-family: 'Roboto', sans-serif;
     padding: 20px;
@@ -144,7 +142,6 @@ h3 {
     padding:  20px 60px ;
     background-color: #ffc0cb;
     margin: auto;
-    height:;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -221,10 +218,9 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1px 15px 10px 30px;
-    
-  
+    padding: 1px 15px 10px 30px; 
 }
+
 .maps {
     background-color: #ffc0cb;
     display: flex;
@@ -242,6 +238,7 @@ h3 {
     justify-content: center;
     
 }
+
 .formulario {
     background-color: #ffc0cb;
     font-family: 'Roboto', sans-serif;
@@ -250,22 +247,27 @@ h3 {
     padding: 30px;
     margin: 10px;
 }
+
 .nombre {
     padding: 20px; ;
     margin: 10px; ;
 }
+
 .email {
     padding:20px ;
     margin: 10px; ;
 }
+
 .formas_de_pago {
     padding:20px ;
     margin:10px ;
 }
+
 .terminos_y_condiciones {
     padding:20px ;
     margin:10px ;
 }
+
 .textarea {
     resize: none;
     width: 50vw;
@@ -273,6 +275,7 @@ h3 {
     margin: 20px;
     padding: 20px;
 }
+
 .btn_enviar{
     background-color: #b8860b;
     font-family: 'Roboto', sans-serif;
@@ -283,17 +286,19 @@ h3 {
     height: 50;
     width: 30;
 }
+
 .btn_enviar:hover{
     transform: scale(1.2);
 }
 
+@media screen and (max-width : 1262px) {
+    .tarjetas_seccion {
+        flex-wrap: wrap;
+        background-color: #ffc0cb;
+    } 
+}
 
-
-  
-  
-
-
-@media screen and (max-width : 760px) {
+@media screen and (max-width : 972px) {
     .tarjetas_seccion {
         flex-wrap: wrap;
         background-color: #ffc0cb;
@@ -314,21 +319,3 @@ h3 {
         background-color: #ffc0cb;
     }
 }
-/*
-@media screen and (max-width:400px) {
-  .brown {
-    display: flex;
-    flex-wrap: wrap;
-  }  
-}
-/*
-@media screen and (max-width : 500px){
-    .tarjetitas_principal{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: auto;
-    } 
-     
-}
-*/
