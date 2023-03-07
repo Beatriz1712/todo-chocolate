@@ -5,7 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*-----Inicio ----*/
+
+/**********  INICIO  **********/
+
 header {
     background-color: #ffc0cb;
     padding: 10px;
@@ -18,22 +20,12 @@ header {
     width: 8rem;
 }
 
-
-.menu {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-items: center;
-    gap: 20px;
-    
-}
 .navbar {
     background-color: #ffc0cb;
     justify-content: end;
     
 }
+
 .navbar-nav li {
 
     display: flex;
@@ -41,22 +33,6 @@ header {
     align-items: center;
     font-family:'Roboto', sans-serif;;
     font-size: 25px;    
-}
-
-.menu li {
-   
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    font-family:'Roboto', sans-serif;;
-    font-size: 25px; 
-     
-}
-
-
-.menu_item a {
-    color : rgb(47, 5, 5);
-    text-decoration:none;
 }
 
 .nav-item a{
@@ -116,6 +92,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .brown {
@@ -123,7 +100,9 @@ h3 {
     font-size: 50px;
 }
 
-/*--- NOSOTROS ---*/
+
+/**********  NOSOTROS  **********/
+
 .ventana_nosotros {
     background-color: #EEE8AA;
 }
@@ -145,31 +124,52 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-/*--- PRODUCTOS ---*/
-.ventana_tarjetas_chocolate {
-    background-color :#EEE8AA;
+
+/**********  PRODUCTOS  **********/
+
+.ventana_tarjetas_chocolate{
+   background-color: #EEE8AA;
+   
 }
-/*  section con   div: 3 tarjeta chocolate  */
+
+.dos_tarjetas_seccion{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.dos_tarjetas_seccion {
+    background-color: #EEE8AA;
+    width: 99%;
+    padding: 30px;
+    margin: 5px;
+   
+}
+
 .tarjetas_seccion {
     display: flex;
     justify-content:space-evenly;
     align-items: center;
     background-color: #ffc0cb;
     width: 99%;
-    padding: 30;
-    margin: 10px;
-    gap: 30px;   
+    padding: 30px;
+    margin-bottom: 10px;/******/
+    gap: 30px; 
+    height: 100%;  
 }
 
 .tarjeta_chocolate {
-    background-color: #eee8aa;
+    background-color: #EEE8AA;
     padding: 30px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;/******/
     gap: 20px;
-    
-    display: flex;
+    display: flex; 
     flex-direction: column;
     width: 300px;
 }
@@ -180,7 +180,7 @@ h3 {
 }
 
 .parrafo_chocolate {
-    background-color: #eee8aa;
+    background-color: #EEE8AA;
     font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
@@ -188,6 +188,7 @@ h3 {
     padding: 20;
     margin: 30;    
 }
+
  .precio {
     justify-content: center;
  }
@@ -205,6 +206,7 @@ h3 {
     transition-property: background-color,color,border;
     transition-duration: 0.4s;
 }
+
 .btn_comprar:hover {
     transform: scale(1.1);
     background-color:#b8860b;
@@ -212,7 +214,9 @@ h3 {
     border: 2px solid #131311;
 }
 
-/*--- LOCALES ---*/
+
+/**********  LOCALES  **********/
+
 .ventana_google_maps {
     background-color:#EEE8AA;
     display: flex;
@@ -230,7 +234,9 @@ h3 {
     justify-content: center;
 }
 
-/*--- CONTACTO ---*/
+
+/**********  CONTACTO  *********/
+
 .ventana_contacto {
     background-color: #EEE8AA;
     display: flex;
@@ -248,33 +254,15 @@ h3 {
     margin: 10px;
 }
 
-.nombre {
-    padding: 20px; ;
-    margin: 10px; ;
-}
-
-.email {
-    padding:20px ;
-    margin: 10px; ;
-}
-
-.formas_de_pago {
-    padding:20px ;
-    margin:10px ;
-}
-
-.terminos_y_condiciones {
-    padding:20px ;
-    margin:10px ;
-}
-
-.textarea {
-    resize: none;
-    width: 50vw;
-    height: 50vh;
+.form-control {
     margin: 20px;
-    padding: 20px;
+    background-color: #EEE8AA;
 }
+.form-control:hover {
+    background-color:rgba(12, 2, 2, 0.234);
+    border-color: rgba(12, 2, 2, 0.234);
+}
+
 
 .btn_enviar{
     background-color: #b8860b;
@@ -288,7 +276,7 @@ h3 {
 }
 
 .btn_enviar:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 @media screen and (max-width : 1262px) {
@@ -312,9 +300,11 @@ h3 {
         width: auto;
 
     } 
+
     .card {
         width: 80%;
     } 
+
     .navbar {
         background-color: #ffc0cb;
     }

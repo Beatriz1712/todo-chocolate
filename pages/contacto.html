@@ -15,6 +15,7 @@
         <img class="logo" src=".././img/logo.png.png" alt="logo todo chocolate">
         </header> 
         
+        
         <nav class="navbar navbar-expand-lg bg-body-tertiary-#ffc0cb">
             <div class="container-fluid">
                <a class="navbar-brand" href="#"></a>
@@ -46,46 +47,38 @@
 
         <main class="ventana_contacto">
           <h1>CONTACTO</h1>
-          <form>
-              <fieldset class="formulario">
-                    <div class="nombre">
-                          <label  for="nombre">Nombre</label>
-                          <input reqiered type="text" id="nombre" placeholder="Ingresa tu nombre">
-                    </div> 
-    
-                    <div class="email">
-                          <label for="email">Email</label>
-                          <input required type="email" id="email" placeholder="Ingresa tu email">
-                    </div>
-                    
-                    <div class="formas_de_pago">
-                        <label for="formas de pago">Formas de pago</label>
-                        
-                        <select>
-                            <option value="tarjeta  credito">Tarjeta de crédito</option>
-                            <option value="tarjeta debito">Tarjeta débito</option>
-                            <option value="tansferencia bancaria">Transferencia bancaria</option>
-                        </select>
-                  </div>
-    
-                    <div class="terminos_y_condiciones">  
-                        <h3>¿Aceptas términos y condiciones?</h3>
-                        <input type="radio"  name="terminosycondiciones" value="si">SI
-                        <input type="radio"  name="terminosycondiciones" value="no">NO
-                    </div>
-                    
-                    
-                    <div> 
-                        <textarea class="textarea" placeholder="Dejanos un mensaje..."></textarea>
-                    </div>
-                  
-                    <button class="btn_enviar">Enviar
-                      
-                    </button>
-                    
-                    <!---<input type="reset" value="Limpiar">--->
-              </fieldset>
-          </form>
+
+        <!-- Container Contacto Form -->
+<div  class="container-fluid bg-#ffc0cb">
+  
+  <div class="formulario">
+      <div class="col-sm-5">
+          <p>Escríbenos y te responderemos a la brevedad.</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span> Lima - Perú  </p>
+          <p><span class="glyphicon glyphicon-phone"></span> +00 517569854</p>
+          <p><span class="glyphicon glyphicon-envelope"></span> adminl@todochocolate.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+          <div class="formulario">
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="nombre" name="name" placeholder=" 🙋‍♂️ Nombre" type="text" required>
+              </div>
+              <div class="col-sm-6 form-group">
+                <input class="form-control" id="email" name="email" placeholder=" 📧 Email" type="email" required >
+              </div>
+          </div>
+          <textarea class="form-control" id="commentarios" name="commentarios" placeholder="Dejanos tu mensaje..." rows="5"></textarea><br>
+          <div class="formulario">
+              <div class="col-sm-12 form-group">
+                <button class="btn_enviar">Enviar
+                </button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
         </main>
           <footer class="footer">
               <p>©2023 TODO CHOCOLATE<br> by Beatriz SCh</p>
