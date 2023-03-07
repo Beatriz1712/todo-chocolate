@@ -258,6 +258,7 @@ h3 {
     margin: 20px;
     background-color: #EEE8AA;
 }
+
 .form-control:hover {
     background-color:rgba(12, 2, 2, 0.234);
     border-color: rgba(12, 2, 2, 0.234);
