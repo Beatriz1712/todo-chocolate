@@ -139,15 +139,16 @@ h3 {
     width: 100%;
     padding: 10px;
     gap: 10px;
+    background-color: #EEE8AA;
+    width: 99%;
+    margin: 5px;
+    
 }
 
 
-.dos_tarjetas_seccion {
-    background-color: #EEE8AA;
-    width: 99%;
-    padding: 30px;
-    margin: 5px;
-   
+.pad {
+    padding-bottom: 5px;
+    padding-left: 15px; 
 }
 
 .tarjetas_seccion {
@@ -167,7 +168,7 @@ h3 {
     padding: 30px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 50px;/******/
+    margin-bottom: 50px;
     gap: 20px;
     display: flex; 
     flex-direction: column;
@@ -219,7 +220,9 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1px 15px 10px 30px; 
+    padding: 1px 15px 30px 30px; 
+    height: 500px;
+
 }
 
 .maps {
@@ -227,8 +230,16 @@ h3 {
     display: flex;
     width: 99%;
     height: 100%;
-    padding: 20;
+    padding: 15px;
     justify-content: center;
+}
+
+.iframe {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    justify-content: center; 
 }
 
 
