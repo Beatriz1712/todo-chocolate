@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
 }
 
 /**********  INICIO  **********/
@@ -31,7 +32,7 @@ header {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    font-family:'Roboto', sans-serif;;
+    font-family:'Roboto', sans-serif;
     font-size: 25px;    
 }
 
@@ -295,6 +296,10 @@ h3 {
 }
 
 @media screen and (max-width : 972px) {
+    .header {
+        align-items: start;
+    }
+    
     .tarjetas_seccion {
         flex-wrap: wrap;
         background-color: #ffc0cb;
@@ -327,4 +332,6 @@ h3 {
         padding-bottom: 5px;
         padding-left: 1px;   
     }
+    
 }
+
